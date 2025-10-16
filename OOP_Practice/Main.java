@@ -2,6 +2,10 @@
 
 public class Main {
     public static void main(String[] args) {
+        String st ="a";
+        if (st=="a"){
+            System.out.println("yes");
+        }
         Departments CS = new Departments();
         CS.setName("Computer Science");
         CS.setId(101);
@@ -11,5 +15,7 @@ public class Main {
         System.out.println();
         Departments IT = new Departments("Information Technology", 102, "Academic Building 1");
         IT.displayInfo();
+        
+       
     }
 }
