@@ -19,14 +19,6 @@ public class Main {
         }
     }
 
-    /**
-     * A helper method to get the current capacity of an ArrayList using reflection.
-     * Capacity is a private implementation detail, so we must "reflect" to see it.
-     *
-     * @param list The ArrayList to inspect.
-     * @return The current capacity of the list's internal array.
-     * @throws Exception if reflection fails.
-     */
     public static int getArrayListCapacity(ArrayList<?> list) throws Exception {
         // Get the class of the ArrayList.
         Field elementDataField = ArrayList.class.getDeclaredField("elementData");
@@ -34,8 +26,7 @@ public class Main {
         // Make the private "elementData" field accessible.
         elementDataField.setAccessible(true);
 
-        // Get the value of the "elementData" field (which is the internal array)
-        // and return its length.
+       
         return ((Object[]) elementDataField.get(list)).length;
     }
 }
