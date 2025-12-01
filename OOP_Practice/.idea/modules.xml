@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayListVsVector/ArrayListVsVector.iml" filepath="$PROJECT_DIR$/ArrayListVsVector/ArrayListVsVector.iml" />
       <module fileurl="file://$PROJECT_DIR$/B20_DSA/B20_DSA.iml" filepath="$PROJECT_DIR$/B20_DSA/B20_DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception_handling/Exception_handling.iml" filepath="$PROJECT_DIR$/Exception_handling/Exception_handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-concept/OOP-concept.iml" filepath="$PROJECT_DIR$/OOP-concept/OOP-concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP-concept/src/OOP_Practice.iml" filepath="$PROJECT_DIR$/OOP-concept/src/OOP_Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
